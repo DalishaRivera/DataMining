@@ -1,0 +1,7 @@
+digraph unix {
+	graph [pos = "0,0!", width = 200, height = 200];
+	node [color = red
+	style = filled
+	shape = record];
+	Hello->World
+	}
