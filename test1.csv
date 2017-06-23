@@ -1,0 +1,80 @@
+Frame #,Function,Binary,File,Line
+,,,,
+1,mem_cgroup_migrate,vmlinux,"0xd25d60dc
+Build id: 4.8.6-300.fc25.i686+PAE",0xfc
+,,,,
+2,shmem_replace_page.isra.49,vmlinux,"0xd258e5d8
+Build id: 4.8.6-300.fc25.i686+PAE",0x118
+,,,,
+3,shmem_getpage_gfp,vmlinux,"0xd258ef75
+Build id: 4.8.6-300.fc25.i686+PAE",0x875
+,,,,
+4,? __kmalloc,vmlinux,"0xd25cb1ef
+Build id: 4.8.6-300.fc25.i686+PAE",0x15f
+,,,,
+5,shmem_read_mapping_page_gfp,vmlinux,"0xd258f0f8
+Build id: 4.8.6-300.fc25.i686+PAE",0x48
+,,,,
+6,i915_gem_object_get_pages_gtt,i915,drivers/gpu/drm/i915/i915_gem.c,2549
+,,,,
+7,? walk_system_ram_range,vmlinux,"0xd24733d7
+Build id: 4.8.6-300.fc25.i686+PAE",0x87
+,,,,
+8,? pat_enabled,vmlinux,"0xd245c220
+Build id: 4.8.6-300.fc25.i686+PAE",0x20
+,,,,
+9,i915_gem_object_get_pages,i915,drivers/gpu/drm/i915/i915_gem.c,2621
+,,,,
+10,i915_gem_object_set_to_gtt_domain,i915,drivers/gpu/drm/i915/i915_gem.c,4042
+,,,,
+11,? __check_object_size,vmlinux,"0xd25de8cd
+Build id: 4.8.6-300.fc25.i686+PAE",0x9d
+,,,,
+12,i915_gem_set_domain_ioctl,i915,drivers/gpu/drm/i915/i915_gem.c,1852
+,,,,
+13,? _copy_from_user,vmlinux,"0xd276b001
+Build id: 4.8.6-300.fc25.i686+PAE",0x11
+,,,,
+14,? i915_gem_object_set_to_gtt_domain,i915,include/linux/list.h,169
+,,,,
+15,drm_ioctl,drm,drivers/gpu/drm/drm_ioctl.c,719
+,,,,
+16,? update_curr,vmlinux,"0xd249c031
+Build id: 4.8.6-300.fc25.i686+PAE",0x161
+,,,,
+17,? i915_gem_object_set_to_gtt_domain,i915,include/linux/list.h,169
+,,,,
+18,? __kunmap_atomic,vmlinux,"0xd24614a3
+Build id: 4.8.6-300.fc25.i686+PAE",0xa3
+,,,,
+19,? do_wp_page,vmlinux,"0xd25a37eb
+Build id: 4.8.6-300.fc25.i686+PAE",0xeb
+,,,,
+20,? trigger_load_balance,vmlinux,"0xd24a80bd
+Build id: 4.8.6-300.fc25.i686+PAE",0x10d
+,,,,
+21,? avc_has_perm,vmlinux,"0xd26e2ed8
+Build id: 4.8.6-300.fc25.i686+PAE",0x48
+,,,,
+22,? drm_getunique,drm,arch/x86/include/asm/uaccess.h,742
+,,,,
+23,do_vfs_ioctl,vmlinux,"0xd25f4e31
+Build id: 4.8.6-300.fc25.i686+PAE",0x91
+,,,,
+24,? __inode_security_revalidate,vmlinux,"0xd26e59bb
+Build id: 4.8.6-300.fc25.i686+PAE",0x4b
+,,,,
+25,? selinux_file_ioctl,vmlinux,"0xd26e7eed
+Build id: 4.8.6-300.fc25.i686+PAE",0xfd
+,,,,
+26,? security_file_ioctl,vmlinux,"0xd26df89c
+Build id: 4.8.6-300.fc25.i686+PAE",0x3c
+,,,,
+27,SyS_ioctl,vmlinux,"0xd25f5510
+Build id: 4.8.6-300.fc25.i686+PAE",0x60
+,,,,
+28,do_fast_syscall_32,vmlinux,"0xd24037ad
+Build id: 4.8.6-300.fc25.i686+PAE",0x8d
+,,,,
+29,sysenter_past_esp,vmlinux,"0xd2b57472
+Build id: 4.8.6-300.fc25.i686+PAE",0x47

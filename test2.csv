@@ -1,0 +1,39 @@
+Crash_ID,Frame #,Function,Binary,File,Line
+1757238,1,dump_stack,vmlinux,"0xffffffffaf3e5ebd
+Build id: 4.8.6-300.fc25.x86_64",0x63
+1757238,2,__warn,vmlinux,"0xffffffffaf0a0e8b
+Build id: 4.8.6-300.fc25.x86_64",0xcb
+1757238,3,warn_slowpath_fmt,vmlinux,"0xffffffffaf0a0f0f
+Build id: 4.8.6-300.fc25.x86_64",0x5f
+1757238,4,? kfree_const,vmlinux,"0xffffffffaf1dda61
+Build id: 4.8.6-300.fc25.x86_64",0x21
+1757238,5,kobject_add_internal,vmlinux,"0xffffffffaf3e89c5
+Build id: 4.8.6-300.fc25.x86_64",0x265
+1757238,6,? kfree_const,vmlinux,"0xffffffffaf1dda61
+Build id: 4.8.6-300.fc25.x86_64",0x21
+1757238,7,kobject_add,vmlinux,"0xffffffffaf3e8fa5
+Build id: 4.8.6-300.fc25.x86_64",0x75
+1757238,8,? kobject_create,vmlinux,"0xffffffffaf3e90cb
+Build id: 4.8.6-300.fc25.x86_64",0x1b
+1757238,9,kobject_create_and_add,vmlinux,"0xffffffffaf3e9121
+Build id: 4.8.6-300.fc25.x86_64",0x31
+1757238,10,threshold_create_device,vmlinux,"0xffffffffaf0410e9
+Build id: 4.8.6-300.fc25.x86_64",0x189
+1757238,11,? set_debug_rodata,vmlinux,"0xffffffffaff7f8cd
+Build id: 4.8.6-300.fc25.x86_64",0x12
+1757238,12,threshold_init_device,vmlinux,"0xffffffffaff9050a
+Build id: 4.8.6-300.fc25.x86_64",0x37
+1757238,13,? mcheck_vendor_init_severity,vmlinux,"0xffffffffaff904d3
+Build id: 4.8.6-300.fc25.x86_64",0x1a
+1757238,14,do_one_initcall,vmlinux,"0xffffffffaf002190
+Build id: 4.8.6-300.fc25.x86_64",0x50
+1757238,15,? set_debug_rodata,vmlinux,"0xffffffffaff7f8cd
+Build id: 4.8.6-300.fc25.x86_64",0x12
+1757238,16,kernel_init_freeable,vmlinux,"0xffffffffaff801a0
+Build id: 4.8.6-300.fc25.x86_64",0x194
+1757238,17,kernel_init,vmlinux,"0xffffffffaf7f4ede
+Build id: 4.8.6-300.fc25.x86_64",0xe
+1757238,18,ret_from_fork,vmlinux,"0xffffffffaf80277f
+Build id: 4.8.6-300.fc25.x86_64",0x1f
+1757238,19,? rest_init,vmlinux,"0xffffffffaf7f4ed0
+Build id: 4.8.6-300.fc25.x86_64",0x80
