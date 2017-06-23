@@ -1,3 +1,8 @@
+#Author: Chris T.
+#Editor: Dalisha R.
+#Date recieved: 06/21/2017
+#logger.py
+
 import os
 import sys
 
